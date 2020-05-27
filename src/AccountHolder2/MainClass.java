@@ -24,7 +24,7 @@ public class MainClass {
       Class.forName("org.sqlite.JDBC");
       System.out.println("Load driver success");
       
-      Connection connection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Levar-PC\\java notes\\trying.db");  
+      Connection connection = DriverManager.getConnection("jdbc:sqlite:C:\\Users\\Levar-PC\\java notes\\MS3INT.db");  
       
       if(tableExists != true) {
 
@@ -113,11 +113,12 @@ else {
       
       System.out.println("The end of process log :\n#"+
 
-                        strAccount.length+" of records received.\n#"+
+                        (IncorrectRecords + listResult.size())+" of records received.\n#"+
 
                         listResult.size()+" of records processed.\n#"+
 
                         IncorrectRecords+" of records failed.");
+     
 
       
       
