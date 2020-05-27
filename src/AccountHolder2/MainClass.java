@@ -113,7 +113,7 @@ else {
       
       System.out.println("The end of process log :\n#"+
 
-                        //strAccount.length+" of records received.\n#"+
+                        strAccount.length+" of records received.\n#"+
 
                         listResult.size()+" of records processed.\n#"+
 
