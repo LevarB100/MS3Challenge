@@ -3,7 +3,7 @@
 
 # Purpose of Project:
 
-#### The purpose of this project is to build code in JAVA that will allow a user to move data from a CSV file intoa SQLite database(db) without losing information from the original file. The format of the new file in the db should be the same as with the original in the CSV file.
+#### The purpose of this project is to build code in JAVA that will allow a user to move data from a CSV file intoa SQLite database(db) without losing information from the original file. The format of the new file in the db should be the same as with the original in the CSV file as well.
 
 # Steps to Get The App Up And Running:
 
@@ -11,7 +11,7 @@
 #### Step 2) Create a table within the SQLite db
 #### Step 3) Link your SQLite database by copying the address for SQLite database and placing it into the DriverManager.getConnection parameters on line 27 in the MainCLass class.
 #### Step 4) Next, enter the location of the original CSV file in the getListAccountFromTextFile() parameter on line 48 of the MainClass class.
-#### Step 5) Then, you enter the name of the table created in step 2 into three different places in the code. The first place is the connection.createstatement parmeter on line 31. The second place is the connection.createstatement parmeter on line 36. Lastly, the string query on line 42. In each instance the user just needs to replace the name "TallOrder" to the table name from step 2.
+#### Step 5) Then, you enter the name of the table created in step 2 into three different places in the code. The first place is the connection.createstatement parmeter on line 31. The second place is the connection.createstatement parmeter on line 36. Lastly, the string query on line 42. In each instance the user just needs to replace the name "TallOrder" to the chosen table name from step 2.
 
 #### Note: At this point the application is ready to run. However, if you receive a JDBC error it would be because you did not copy SQLite JDBC driver to your project and import it to build path.
 
